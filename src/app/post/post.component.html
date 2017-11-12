@@ -1,5 +1,12 @@
 <button routerLink="/" >back</button>
-<h2>A specific post:</h2>
+
+<h2>Preview post:</h2>
 
 <h3>{{ (singlePost | async)?.title }}</h3>
 <p>{{ (singlePost | async)?.content }}</p>
+
+<input type="text" [(ngModel)]="title" name="title" placeholder="Titolo" [value]="(singlePost).title">
+<textarea [(ngModel)]="content" name="content" placeholder="Contenuto" [value]="(singlePost).content"></textarea>
+<input type="submit" value="Update Post" (click)="updatePost(postDoc.ref.id)">
+
+
