@@ -8,8 +8,10 @@
 <p>{{ post.content}}</p>
 
 <h3>Update your post</h3>
+
 <input type="text" [(ngModel)]="post.title" name="title" >
 <textarea [(ngModel)]="post.content" name="content"></textarea>
+
 <input type="submit" value="Update Post" (click)="updatePost(postDoc.ref.id, post.title, post.content)">
 
 </div>

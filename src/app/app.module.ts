@@ -10,6 +10,7 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app.router';
 import { HomeComponent } from './home/home.component';
 import { PostComponent } from './post/post.component';
+import { LoginComponent } from './login/login.component';
 
 // firebase configuration
 const firebaseConfig = {
@@ -25,7 +26,8 @@ const firebaseConfig = {
   declarations: [
     AppComponent,
     HomeComponent,
-    PostComponent
+    PostComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
