@@ -1,4 +1,12 @@
-# Firestore
+<img src="https://www.google.it/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwi-wovE96beAhUEzaQKHVjDDjsQjRx6BAgBEAU&url=https%3A%2F%2Fangular.io%2Fpresskit&psig=AOvVaw2zxSK46WQ_XKph3im5Y-xC&ust=1540740430579779" >
+
+<img src="https://www.google.it/url?sa=i&source=images&cd=&ved=2ahUKEwjpub7d96beAhXEDuwKHQ8ZBoYQjRx6BAgBEAU&url=https%3A%2F%2Fwww.kisspng.com%2Ffree%2Ffirebase.html&psig=AOvVaw0Nt1qN2K5pQ6ouDNxbywmn&ust=1540740486982009">
+
+##Angular And Firebase tutorial
+The propose of this tutorial is to create a simple to do list app using firebase and angular
+Here the [Article](https://www.lotrek.it/blog/angular_firebase_todo_list)
+
+## Firestore
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.4.
 
